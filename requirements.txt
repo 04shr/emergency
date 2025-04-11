@@ -1,3 +1,6 @@
 streamlit
+pandas
 flask
 requests
+folium
+streamlit-folium
