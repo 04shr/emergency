@@ -290,7 +290,7 @@ except Exception as e:
     st.error(f"Error loading data: {e}")
 
 # Sidebar navigation
-st.sidebar.markdown('<h2 style="color: #d32f2f;">🚨 आपातकालीन जानकारी</h2>', unsafe_allow_html=True)
+st.sidebar.markdown('<h2 style="color: #d32f2f;">🚨 </h2>', unsafe_allow_html=True)
 st.sidebar.markdown('<h3 style="color: #e0e0e0;">Emergency Information</h3>', unsafe_allow_html=True)
 page = st.sidebar.radio("Navigate", ["Quick Access", "Manage Contacts", "Manage Guidelines", "Personal Information", "Nearby Services"])
 
